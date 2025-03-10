@@ -9,7 +9,7 @@ drf-yasg==1.21.8
 Pillow==11.1.0
 django-imagekit==5.0.0
 markdown==3.7
-django-filter==24.3
+django-filter==25.1
 filetype==1.2.0
 django-mptt==0.16.0
 crispy-bootstrap5==2024.10
