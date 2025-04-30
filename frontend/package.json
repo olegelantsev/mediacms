@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "flux": "^4.0.1",
+    "flux": "^4.0.4",
     "mediacms-player": "file:packages/player",
     "normalize.css": "^8.0.1",
     "react": "^19.0.0",
