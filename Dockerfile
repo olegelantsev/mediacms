@@ -1,4 +1,4 @@
-FROM python:3.13-bookworm AS build-image
+FROM python:3.13.3-bookworm AS build-image
 
 # Install system dependencies needed for downloading and extracting
 RUN apt-get update -y && \
@@ -24,7 +24,7 @@ RUN mkdir -p /home/mediacms.io/bento4 && \
     rm Bento4-SDK-1-6-0-637.x86_64-unknown-linux.zip
 
 ############ RUNTIME IMAGE ############
-FROM python:3.13-bookworm AS runtime_image
+FROM python:3.13.3-bookworm AS runtime_image
 
 SHELL ["/bin/bash", "-c"]
 
